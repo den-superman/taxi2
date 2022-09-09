@@ -9,6 +9,7 @@
 </head>
 <body>
 <%@include file="/WEB-INF/views/logout.jsp" %>
+<h4><a href="${pageContext.request.contextPath}/index">Main menu</a> </h4>
 <form method="post" id="manufacturer" action="${pageContext.request.contextPath}/manufacturers/add"></form>
 <h1 class="table_dark">Add manufacturer:</h1>
 <table border="1" class="table_dark">
