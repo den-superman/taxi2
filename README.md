@@ -7,5 +7,5 @@ To use the app, you need to register a profile as a Driver of our Taxi_Service. 
 You can touch my app here: https://guarded-headland-20220.herokuapp.com/
 
 If you want to use this app locally(IntelliJ IDEA Ultimate is needed) on your device you need to set up tomcat: 
-Run your project in Intelegi IDEA -> edit configuration -> add new configuration -> tomcat -> local -> fix -> <your project name>_war_exploded. 
+Run your project in Intelegi IDEA -> edit configuration -> add new configuration -> tomcat -> local -> fix -> `your project name`_war_exploded. 
 And I recomend you to put aplication context: "/" just for your comfort.
