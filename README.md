@@ -13,9 +13,12 @@ While creating the app I used 3-tier structure:
 
 Also, the app is based on SOLID principles: 
 1. Each class have only one responsibility.
-2. 
-
+2. It is open for extension, but closed for modification.
+3. Objects of a superclass are replaceable with objects of its subclasses.
+4. Large interfaces are split into smaller ones, where it was reasonable.
+5. High-level and low-level modules depends on abstractions.
 
 If you want to use this app locally(IntelliJ IDEA Ultimate is needed) on your device you need to set up tomcat: 
 Run your project in Intelegi IDEA -> edit configuration -> add new configuration -> tomcat -> local -> fix -> `your project name`_war_exploded. 
 And I recomend you to put aplication context: "/" just for your comfort.
+I hope my app will be useful for you!
