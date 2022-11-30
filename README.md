@@ -4,7 +4,6 @@ This is my small application - taxi_service
 
 A little about it’s functionality:
 To use the app, you need to register a profile as a Driver of our Taxi_Service. After registration - you need to log in, to access app’s entire functionality. Here you also can registrate cars and their manufacturers, look through a list of all registrated cars, drivers or manufacturers and delete any of them if needed. Moreover you are able to connect certain driver(s) to a certain car. Logout is implemented too. After pushing "logout" button - only login with registration page will be accessable again. 
-You can touch my app here: https://guarded-headland-20220.herokuapp.com/
 
 While creating the app I used 3-tier structure:
 1. DAO - this tier is responsible only for insertion and extraction data from database.
